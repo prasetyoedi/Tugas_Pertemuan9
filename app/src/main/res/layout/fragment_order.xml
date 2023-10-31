@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Ticket"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginVertical="40dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView7"
+        android:text="TextView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Jns_Ticket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:longClickable="false"
+            android:layout_marginHorizontal="30dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buyticket"
+        android:text="Buy Now"
+        android:textColor="@color/white"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_button_drawable"></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
